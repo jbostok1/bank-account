@@ -3,7 +3,7 @@ class BankAccount:
     bank_name = "Software Engineering Bank"
 
     #Constructor 
-    def __init__(self, customer_name, current_balance, minimum_balance, account_number=0, routing_number=0):
+    def __init__(self, customer_name, current_balance, minimum_balance, account_number, routing_number): #unsure if need to set account number and routing number to 0
 
         self.customer_name = customer_name
         self.current_balance = current_balance
