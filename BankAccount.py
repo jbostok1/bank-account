@@ -30,16 +30,3 @@ class BankAccount:
         print(f"Current Balance: ${self.current_balance:.2f}")
         print(f"Minimum Balance: ${self.minimum_balance:.2f}")
         print("============================\n")
-
-# #Create instances
-# account1 = BankAccount("John Doe", 500, 100)
-# account2 = BankAccount("Jane Doe", 500, 100)
-#
-# #Call methods
-# account1.deposit(100)
-# account1.withdraw(50)
-# account1.print_account_info()
-#
-# account2.deposit(500)
-# account2.withdraw(6000)
-# account2.print_account_info()
